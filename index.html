@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>You Are Awesome!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header style="display: flex;">
-      <div style="display: inline-block;">엑스 아이콘</div>
-      <h3>Playlist</h3>
-    </header>
-    
-    <main style="display: flex; flex-wrap: wrap; width: 50%;">
-      <div style="width: 50%;"><img src="" alt="이미지=노란색배경" /></div>
-      <div style="width: 50%;">
-        <h2>Random<br>Love</h2>
-        <p>by Divay Kapoor</p>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>You Are Awesome!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,400,700" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ef21b2e4b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="text-focus-in">
+   <header class="text-focus-in">
+    <i class="fa-solid fa-xmark X--icon text-focus-in"></i>
+    <h3 class="text-focus-in">Playlist</h3>
+  </header>
+  
+  <main>
+    <div class="music--big text-focus-in">
+      <div class="music__imgbox--big wobble-hor-bottom text-focus-in"><img src="/imgbox.svg" class="text-focus-in"/></div>
+      <div class="music__descriptions--big text-focus-in">
+        <h2 class="music__descriptions--title--big text-focus-in wobble-hor-bottom">Random Love</h2>
+        <p class="music__descriptions--writer--big text-focus-in wobble-hor-bottom">by Divay Kapoor</p>
       </div>
-      <div style="display: flex; width: 100%;   justify-content: space-evenly;">
-        <div style="width: 33%;">Play</div>
-        <div style="width: 33%;">하트</div>
-        <div style="width: 33%;">플러스</div>
+    </div>
+
+    <div class="btn text-focus-in wobble-hor-bottom">
+      <div class="btn--play text-focus-in">
+        <i class="fa-regular fa-circle-play text-focus-in"></i>
+        <span class="text-focus-in">Play</span>
       </div>
-      
-    </main>
-    <footer>
-    
-    </footer>
-  </body>
+      <div class="btn__rating text-focus-in">
+        <div class="btn__rating--like"><i class="fa-regular fa-heart text-focus-in"></i></div>
+        <div class="btn__rating--plus"><i class="fa-solid fa-plus text-focus-in"></i></div>
+      </div>
+    </div>
+  </main>
+  
+  <ul>
+    <li class="music--small text-focus-in">
+      <div class="music__imgbox--small tomato wobble-hor-bottom text-focus-in"></div>
+      <div class="music__descriptions--small text-focus-in">
+        <h2 class="music__descriptions--title--small text-focus-in wobble-hor-bottom">Matargasti</h2>
+        <p class="music__descriptions--writer--small text-focus-in wobble-hor-bottom">Mohit Chauhan</p>
+      </div>
+    </li>
+    <li class="music--small text-focus-in">
+      <div class="music__imgbox--small pink wobble-hor-bottom text-focus-in"></div>
+      <div class="music__descriptions--small text-focus-in">
+        <h2 class="music__descriptions--title--small text-focus-in wobble-hor-bottom">Attitude</h2>
+        <p class="music__descriptions--writer--small text-focus-in wobble-hor-bottom">Lewis Ofman, Attitude</p>
+      </div>
+    </li>
+    <li class="music--small text-focus-in">
+      <div class="music__imgbox--small blue wobble-hor-bottom text-focus-in"></div>
+      <div class="music__descriptions--small text-focus-in">
+        <h2 class="music__descriptions--title--small text-focus-in wobble-hor-bottom">Try Everything</h2>
+        <p class="music__descriptions--writer--small text-focus-in wobble-hor-bottom">Shakira-Zootopia</p>
+      </div>
+    </li>
+    <li class="music--small text-focus-in">
+      <div class="music__imgbox--small sea wobble-hor-bottom text-focus-in"></div>
+      <div class="music__descriptions--small text-focus-in">
+        <h2 class="music__descriptions--title--small text-focus-in wobble-hor-bottom">Sunflower</h2>
+        <p class="music__descriptions--writer--small text-focus-in wobble-hor-bottom">Joseph Vincent-Sunflower</p>
+      </div>
+    </li>
+  </ul>
+</body>
+
 </html>
